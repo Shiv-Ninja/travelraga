@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title>login page</title>
+        <link rel="stylesheet" href="login.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">    
+    </head>
+    <body>
+        <section id="navbar">
+            <div class="nav-bar">
+                <div class="moto">
+                    <h1>Travel Raga</h1>
+                </div>
+                <div class="brand">
+                    <img src="images/brand1.png" alt="">
+                </div>
+
+                <div class="navigation">
+                    <ul>
+                        <li class="list">
+                            <a href="index.html">
+                            <span class="icon"><ion-icon size="large" name="home-outline"></ion-icon></span>
+                            <span class="text">Home</span>
+                            </a>
+                    </li>                          
+                        <li class="list">
+                            <a href="login.html">
+                            <span class="icon"><ion-icon  size="large" name="people-circle-outline"></ion-icon></span>
+                            <span class="text">Login</span>
+                            </a>
+                        </li>                                                 
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="body">
+            <div class="main">
+                <div class="card1">
+                    <div class="d1">
+                        <img src="images/card.png" width="250px" alt="">
+                        <h2>Login to Discover <br>the Travel destination</h2>
+                        <div class="log-btn">
+                            <div id="loginBt"><button type="button" class="btn btn-outline-dark">Log in </button></div>
+                            <div id="signupBt"><button type="button" class="btn btn-outline-dark">sign up</button></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card2">
+                    <div class="d2">
+                        <div class="log">
+                            <h3>Enter Your Creditentials</h3>
+                            <form >
+                      
+                              <input type="email" placeholder="          Your E-mail" required><br><br>
+                              <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="            password" maxlength="10" minlength="6" required><br><br>
+                              <button type="button" class="btn btn-light">Submit</button>
+                            </form>
+                            <br>
+                            <div class="up-foot">
+                              <h3>Other apps to sign in </h3>
+                              <a href="https://accounts.google.com/v3/signin/identifier?dsh=S-586449736%3A1666309543556404&continue=https%3A%2F%2Fmyaccount.google.com%2F&ec=GAlAwAE&service=accountsettings&flowName=GlifWebSignIn&flowEntry=AddSession"><img src="images/g.png" width="40px" alt=""></a>
+                              <a href="https://www.facebook.com/login/"><img src="images/fb.png" width="40px" alt=""></a>
+                            </div>
+                         </div>
+                         <div class="sign">
+                            <h3>Enter Your <br> Creditentials</h3>
+                            <form>
+                                <input type="text" placeholder="Your Name" required><br><br>
+                                <input type="tel" maxlength="14" value="+91 " required><br><br>
+                                <input type="email" placeholder="Your E-mail"><br><br>
+                                <input type="password"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"placeholder="password" maxlength="10" minlength="6"><br><br>
+                                <button type="button" class="btn btn-light">Submit</button>
+                              </form>
+                              <br>
+                              <div class="up-foot">
+                                <h3>Other apps to sign in </h3>
+                                <a href="https://accounts.google.com/v3/signin/identifier?dsh=S-586449736%3A1666309543556404&continue=https%3A%2F%2Fmyaccount.google.com%2F&ec=GAlAwAE&service=accountsettings&flowName=GlifWebSignIn&flowEntry=AddSession"><img src="images/g.png" width="40px" alt=""></a>
+                                <a href="https://www.facebook.com/login/"><img src="images/fb.png" width="40px" alt=""></a><br>
+                              </div>
+                         </div>
+                    </div>
+ 
+                </div>
+            </div>
+        </section>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js'></script>
+        <script src="login.js"></script>
+    </body>
+</html>
